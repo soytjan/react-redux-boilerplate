@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+import Main from './Main';
 
-describe('App', () => {
+describe('Main', () => {
   it.skip('should match snapshot', () => {
-    const renderedComponent = shallow(<App />);
+    const renderedComponent = shallow(<Main />);
 
     expect(renderedComponent).toMatchSnapshot();
   })
